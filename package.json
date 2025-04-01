@@ -1,0 +1,45 @@
+{
+  "name": "rohelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "clear && pnpm exec tsx src/main.ts",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mariadb": "^3.4.0",
+    "openai": "^4.89.0",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.10",
+    "@types/node-fetch": "^2.6.12",
+    "@types/ws": "^8.18.0",
+    "eslint": "^9.22.0",
+    "globals": "^15.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bufferutil",
+      "esbuild"
+    ]
+  }
+}
