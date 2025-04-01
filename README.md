@@ -15,7 +15,7 @@ RoHelper is a private, open-source Discord bot designed specifically for Roblox 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/NotKeira/rohelper
    cd rohelper
    ```
 
